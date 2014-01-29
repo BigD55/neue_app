@@ -1,4 +1,6 @@
 NeueApp::Application.routes.draw do
+  get "statische_seiten/Zuhause"
+  get "statische_seiten/Hilfe"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

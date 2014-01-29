@@ -1,0 +1,2 @@
+module StatischeSeitenHelper
+end
