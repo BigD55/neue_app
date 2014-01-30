@@ -6,4 +6,6 @@ class StatischeSeitenController < ApplicationController
   end
   def Ueber
   end	
+  def Kontakt
+  end
 end

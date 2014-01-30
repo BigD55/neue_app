@@ -35,4 +35,15 @@ describe "Statische Seiten" do
       expect(page).to have_title("Neue App | Über Uns")
     end
   end
+  describe "Kontakt Seite" do
+
+    it "should have the content 'Kontakt'" do
+      visit '/statische_seiten/Kontakt'
+      expect(page).to have_content('Kontakt')
+    end
+    it "should have the title 'Kontakt'" do
+      visit '/statische_seiten/Kontakt'
+      expect(page).to have_title("Neue App | Kontakt")
+    end
+  end
 end
