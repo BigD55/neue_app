@@ -4,4 +4,6 @@ class StatischeSeitenController < ApplicationController
 
   def Hilfe
   end
+  def Ueber
+  end	
 end
